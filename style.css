@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, purple, rgb(90, 1, 90));
+    font-family: 'Chivo Mono', monospace;
+    color: white;
+}
+#caixa{
+    margin-top: 80px;
+    width: 500px;
+    height: 800px;
+    background: linear-gradient(to bottom, rgb(45, 0, 75), rgb(15, 0, 22));
+    border-radius: 30px;
+}
+#descript{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+h4{
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+p{
+    margin-top: 0px;
+}
+
+#foto{
+    border-radius: 20px;
+    height: 100px;
+}
+.logo{
+    height: 60px;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    padding: 10px;
+}
+.alinhamento{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+.apelidos{
+    padding-left: 20px;
+}
+
+#socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+/* .socialmedia_org{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 20px;
+} */
+
+#aboutme{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+#textlimits{
+    max-height: 100%;
+}
